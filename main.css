@@ -6,6 +6,7 @@ body{
   display:flex;
   flex-direction:column;
   align-items:center;
+  justifiy-items:center;
   text-align:center;
   font-family:monospace;
   margin:0px 5px 0px 5px;
@@ -37,7 +38,7 @@ h1{
 }
 
 h5{
-  scroll-margin-top: 12.5px;
+  scroll-margin-top: 10px;
   scroll-behavior:smooth;
 }
 
@@ -53,13 +54,12 @@ input,select,textarea{
   height:2rem;
   margin:35px 0px ;
   vertical-align:middle;
-  transition:all ease-in-out 0.5s;
   text-align:center;
 }
 
 input:hover,select:hover,textarea:hover{
   cursor:pointer;
-  transition:all ease-in-out 0.5s;
+  transitions:all ease-in-out 0.5s;
   outline:1px solid black;
 }
 
